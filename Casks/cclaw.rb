@@ -33,11 +33,5 @@ cask "cclaw" do
 
   binary "cclaw"
 
-  postflight do
-    if OS.mac?
-      system_command "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "#{staged_path}/cclaw"]
-    end
-  end
-
   # No zap stanza required
 end
