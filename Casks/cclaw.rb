@@ -2,25 +2,25 @@
 cask "cclaw" do
   auto_updates true
 
-  version "0.13.1"
+  version "0.13.2"
 
   on_macos do
     on_arm do
-      sha256 "f115827f50d45f96605d114152b235bd62bf8737a4bdaf77e2d53cdd3e5c5cee"
+      sha256 "f745ca1e12caf43c2158d42890d7290ba24e1c0f6da9c0d1502e3fdd1923fd07"
       url "https://github.com/chubbyclaw-com/cclaw/releases/download/v#{version}/cclaw_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "ed80289d90825526c566c642709c1a7aaed7c82340214ae4c6495447e42fd8b3"
+      sha256 "ab4f44a2ff32ccafa08473c2e9a3a3d4d8ff5dabb8faa7047efc1cbc572fa828"
       url "https://github.com/chubbyclaw-com/cclaw/releases/download/v#{version}/cclaw_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "f23c8a6572ec5c3eb0cd616df1fca746695b102d3aef5954e5a4243532fb3b90"
+      sha256 "715fe25bcd45d8ce01fde446e486bb2ae4409c10f1edff6bd81c04e2c983c82a"
       url "https://github.com/chubbyclaw-com/cclaw/releases/download/v#{version}/cclaw_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "5e5bcee0d859967d2cb086b6493d588b82707df8b89c6bb5e8705c7696a37282"
+      sha256 "6480ae10603a3901d404637c477d3167c581d7cdf5e7749c4d08596af3e69ac9"
       url "https://github.com/chubbyclaw-com/cclaw/releases/download/v#{version}/cclaw_linux_amd64.tar.gz"
     end
   end
